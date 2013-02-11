@@ -1,6 +1,8 @@
 # BeautifulPublicKey
 
-TODO: Write a gem description
+## Find a beautiful public key
+
+Script repeatedly generates SSH keypairs until you find one whose public key randomart you like
 
 ## Installation
 
@@ -18,7 +20,9 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Run binary and follow instructions a la ssh-keygen
+
+    $ bpk
 
 ## Contributing
 
