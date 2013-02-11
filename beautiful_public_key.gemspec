@@ -8,8 +8,8 @@ Gem::Specification.new do |gem|
   gem.version       = BeautifulPublicKey::VERSION
   gem.authors       = ["Gabe Kopley"]
   gem.email         = ["gabe@coshx.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{Find a beautiful public key}
+  gem.summary       = %q{Script repeatedly generates SSH keypairs until you find one whose public key randomart you like}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($/)
