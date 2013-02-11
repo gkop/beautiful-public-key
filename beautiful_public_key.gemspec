@@ -1,11 +1,8 @@
 # -*- encoding: utf-8 -*-
-lib = File.expand_path('../lib', __FILE__)
-$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'beautiful_public_key/version'
 
 Gem::Specification.new do |gem|
   gem.name          = "beautiful_public_key"
-  gem.version       = BeautifulPublicKey::VERSION
+  gem.version       = "0.0.1"
   gem.authors       = ["Gabe Kopley"]
   gem.email         = ["gabe@coshx.com"]
   gem.description   = %q{Find a beautiful public key}
